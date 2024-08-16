@@ -1,0 +1,151 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Kalam-Light.ttf);
+} 
+.head{
+    display: inline-block;
+} 
+.head h1 {
+    font-family: myFirstFont;
+    display: inline-block;
+}
+.nav{
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+.nav li{
+    color: #7a1755;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    padding:  0 20px;
+    list-style-type:none;
+}
+.nav li:hover{
+    background-color: #800080;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+/Second section/
+.second{
+    padding-right: 0;
+    padding-left: 5%;
+}
+@font-face{
+    font-family: 'stick';
+    src: url(Aaargh.ttf);
+}
+.welcome{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7a1755;
+    display: inline-block;
+    padding: 10% 3% 0 3%;
+    width: 20%; 
+}
+
+.slogan{
+    font-family: stick;
+    padding-left: 3%;
+    display: inline-block;
+    width: 30%;
+    font-size: 40px;
+    color: #7a1755;
+}
+.search{
+    width: 50%;
+    margin-left: 3%;
+    border: #800080;
+    position: absolute;
+}
+.search select{ 
+    appearance: none;
+    background: #e3e4e4;
+    font-size: 24px; 
+    padding: 15px 20px; 
+    width: 70%; 
+    box-shadow: #7a1755;
+
+}
+.explore-button {
+    background-color: #800080;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 24px;
+    margin: 70px 0;
+    margin-left: 3.15%;
+}
+
+.explore-button:hover {
+    background-color: #600060;
+}
+
+.desti{
+    font-family: stick;
+    color: #7a1755;
+    padding-left: 8%;
+    font-weight: 600;
+    width:80%;
+}
+.desti h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.desti p{
+    font-size: 13px;
+    margin-top: -15px;
+}
+.table{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.readmore{
+    background-color: #800080;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 15px;
+    margin: 70px 0;
+}
+.footer{
+    background-color: #ffc5ff;
+    border: #800080;
+    font-family:sans-serif;
+    padding-top: 5%;
+}
+.footer h1,p{
+    text-align: left;
+    width: 400px;
+    color:#7a1755;
+}
+
+label {
+    font-size: 19px;
+    font-weight: 300;
+    width:400px;
+    text-align: left;
+    display: block;
+}
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.submit{
+    background-color: #800080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    margin: 1%;
+    width: 150px;
+    margin-left: -230px;
+}
